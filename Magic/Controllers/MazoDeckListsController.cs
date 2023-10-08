@@ -287,7 +287,8 @@ namespace MagicAnalisis.Controllers
             {
                 response.msg = "Error, no se encontraron datos";
                 response.status = false;
-                return response;
+                return response; 
+
             }
 
             var mazoDeckList = await (
